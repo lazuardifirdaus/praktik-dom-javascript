@@ -1,0 +1,13 @@
+<html>
+  <body>
+    <button>Klik disini!</button>
+
+    <script>
+	const btn = document.querySelector('button');
+       btn.addEventListener('click', function () {
+         this.innerHTML = "Ooops!";
+         this.style.color = "red";
+      });
+    </script>
+  </body>
+</html>
